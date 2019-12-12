@@ -38257,16 +38257,148 @@ var render = function() {
           "tbody",
           _vm._l(_vm.playerdetails, function(playerdetail) {
             return _c("tr", [
-              _c("td", [_vm._v(_vm._s(playerdetail.id))]),
+              _c(
+                "td",
+                {
+                  on: {
+                    click: function($event) {
+                      return _vm.showplayerdetails(
+                        playerdetail.id,
+                        playerdetail.first_name,
+                        playerdetail.second_name,
+                        playerdetail.form,
+                        playerdetail.influence,
+                        playerdetail.creativity,
+                        playerdetail.threat,
+                        playerdetail.ict_index,
+                        playerdetail.total_points,
+                        playerdetail.chance_of_playing_next_round,
+                        playerdetail.chance_of_playing_this_round,
+                        playerdetail.code,
+                        playerdetail.cost_change_event,
+                        playerdetail.cost_change_event_fall,
+                        playerdetail.cost_change_start,
+                        playerdetail.cost_change_start_fall,
+                        playerdetail.dreamteam_count,
+                        playerdetail.element_type,
+                        playerdetail.ep_next,
+                        playerdetail.ep_this,
+                        playerdetail.event_points,
+                        playerdetail.in_dreamteam,
+                        playerdetail.news,
+                        playerdetail.news_added,
+                        playerdetail.now_cost,
+                        playerdetail.photo,
+                        playerdetail.points_per_game,
+                        playerdetail.selected_by_percent,
+                        playerdetail.special,
+                        playerdetail.squad_number,
+                        playerdetail.status,
+                        playerdetail.team,
+                        playerdetail.team_code,
+                        playerdetail.transfers_in,
+                        playerdetail.transfers_in_event,
+                        playerdetail.transfers_out,
+                        playerdetail.transfers_out_event,
+                        playerdetail.value_form,
+                        playerdetail.value_season,
+                        playerdetail.web_name,
+                        playerdetail.minutes,
+                        playerdetail.goals_scored,
+                        playerdetail.assists,
+                        playerdetail.clean_sheets,
+                        playerdetail.goals_conceded,
+                        playerdetail.own_goals,
+                        playerdetail.penalties_saved,
+                        playerdetail.penalties_missed,
+                        playerdetail.yellow_cards,
+                        playerdetail.red_cards,
+                        playerdetail.saves,
+                        playerdetail.bonus,
+                        playerdetail.bps,
+                        playerdetail.name,
+                        playerdetail.singular_name
+                      )
+                    }
+                  }
+                },
+                [_vm._v(_vm._s(playerdetail.id))]
+              ),
               _vm._v(" "),
-              _c("td", [
-                _vm._v(
-                  _vm._s(playerdetail.first_name) +
-                    " " +
-                    _vm._s(playerdetail.second_name) +
-                    " "
-                )
-              ]),
+              _c(
+                "td",
+                {
+                  on: {
+                    click: function($event) {
+                      return _vm.showplayerdetails(
+                        playerdetail.id,
+                        playerdetail.first_name,
+                        playerdetail.second_name,
+                        playerdetail.form,
+                        playerdetail.influence,
+                        playerdetail.creativity,
+                        playerdetail.threat,
+                        playerdetail.ict_index,
+                        playerdetail.total_points,
+                        playerdetail.chance_of_playing_next_round,
+                        playerdetail.chance_of_playing_this_round,
+                        playerdetail.code,
+                        playerdetail.cost_change_event,
+                        playerdetail.cost_change_event_fall,
+                        playerdetail.cost_change_start,
+                        playerdetail.cost_change_start_fall,
+                        playerdetail.dreamteam_count,
+                        playerdetail.element_type,
+                        playerdetail.ep_next,
+                        playerdetail.ep_this,
+                        playerdetail.event_points,
+                        playerdetail.in_dreamteam,
+                        playerdetail.news,
+                        playerdetail.news_added,
+                        playerdetail.now_cost,
+                        playerdetail.photo,
+                        playerdetail.points_per_game,
+                        playerdetail.selected_by_percent,
+                        playerdetail.special,
+                        playerdetail.squad_number,
+                        playerdetail.status,
+                        playerdetail.team,
+                        playerdetail.team_code,
+                        playerdetail.transfers_in,
+                        playerdetail.transfers_in_event,
+                        playerdetail.transfers_out,
+                        playerdetail.transfers_out_event,
+                        playerdetail.value_form,
+                        playerdetail.value_season,
+                        playerdetail.web_name,
+                        playerdetail.minutes,
+                        playerdetail.goals_scored,
+                        playerdetail.assists,
+                        playerdetail.clean_sheets,
+                        playerdetail.goals_conceded,
+                        playerdetail.own_goals,
+                        playerdetail.penalties_saved,
+                        playerdetail.penalties_missed,
+                        playerdetail.yellow_cards,
+                        playerdetail.red_cards,
+                        playerdetail.saves,
+                        playerdetail.bonus,
+                        playerdetail.bps,
+                        playerdetail.name,
+                        playerdetail.singular_name
+                      )
+                    }
+                  }
+                },
+                [
+                  _vm._v(
+                    _vm._s(playerdetail.first_name) +
+                      " " +
+                      _vm._s(playerdetail.second_name) +
+                      " "
+                  )
+                ]
+              ),
               _vm._v(" "),
               _c("td", [
                 _c(
