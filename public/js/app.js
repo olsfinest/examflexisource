@@ -2175,74 +2175,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      uri: 'http://127.0.0.1:8000/playerdetails',
+      uri: '/playerdetails',
       playerdetails: [],
       e_id: '',
       e_firstname: '',
@@ -38250,163 +38186,19 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row justify-content-center" }, [
-      _c("table", { staticClass: "table" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c(
-          "tbody",
-          _vm._l(_vm.playerdetails, function(playerdetail) {
-            return _c("tr", [
-              _c(
-                "td",
-                {
-                  on: {
-                    click: function($event) {
-                      return _vm.showplayerdetails(
-                        playerdetail.id,
-                        playerdetail.first_name,
-                        playerdetail.second_name,
-                        playerdetail.form,
-                        playerdetail.influence,
-                        playerdetail.creativity,
-                        playerdetail.threat,
-                        playerdetail.ict_index,
-                        playerdetail.total_points,
-                        playerdetail.chance_of_playing_next_round,
-                        playerdetail.chance_of_playing_this_round,
-                        playerdetail.code,
-                        playerdetail.cost_change_event,
-                        playerdetail.cost_change_event_fall,
-                        playerdetail.cost_change_start,
-                        playerdetail.cost_change_start_fall,
-                        playerdetail.dreamteam_count,
-                        playerdetail.element_type,
-                        playerdetail.ep_next,
-                        playerdetail.ep_this,
-                        playerdetail.event_points,
-                        playerdetail.in_dreamteam,
-                        playerdetail.news,
-                        playerdetail.news_added,
-                        playerdetail.now_cost,
-                        playerdetail.photo,
-                        playerdetail.points_per_game,
-                        playerdetail.selected_by_percent,
-                        playerdetail.special,
-                        playerdetail.squad_number,
-                        playerdetail.status,
-                        playerdetail.team,
-                        playerdetail.team_code,
-                        playerdetail.transfers_in,
-                        playerdetail.transfers_in_event,
-                        playerdetail.transfers_out,
-                        playerdetail.transfers_out_event,
-                        playerdetail.value_form,
-                        playerdetail.value_season,
-                        playerdetail.web_name,
-                        playerdetail.minutes,
-                        playerdetail.goals_scored,
-                        playerdetail.assists,
-                        playerdetail.clean_sheets,
-                        playerdetail.goals_conceded,
-                        playerdetail.own_goals,
-                        playerdetail.penalties_saved,
-                        playerdetail.penalties_missed,
-                        playerdetail.yellow_cards,
-                        playerdetail.red_cards,
-                        playerdetail.saves,
-                        playerdetail.bonus,
-                        playerdetail.bps,
-                        playerdetail.name,
-                        playerdetail.singular_name
-                      )
-                    }
-                  }
-                },
-                [_vm._v(_vm._s(playerdetail.id))]
-              ),
-              _vm._v(" "),
-              _c(
-                "td",
-                {
-                  on: {
-                    click: function($event) {
-                      return _vm.showplayerdetails(
-                        playerdetail.id,
-                        playerdetail.first_name,
-                        playerdetail.second_name,
-                        playerdetail.form,
-                        playerdetail.influence,
-                        playerdetail.creativity,
-                        playerdetail.threat,
-                        playerdetail.ict_index,
-                        playerdetail.total_points,
-                        playerdetail.chance_of_playing_next_round,
-                        playerdetail.chance_of_playing_this_round,
-                        playerdetail.code,
-                        playerdetail.cost_change_event,
-                        playerdetail.cost_change_event_fall,
-                        playerdetail.cost_change_start,
-                        playerdetail.cost_change_start_fall,
-                        playerdetail.dreamteam_count,
-                        playerdetail.element_type,
-                        playerdetail.ep_next,
-                        playerdetail.ep_this,
-                        playerdetail.event_points,
-                        playerdetail.in_dreamteam,
-                        playerdetail.news,
-                        playerdetail.news_added,
-                        playerdetail.now_cost,
-                        playerdetail.photo,
-                        playerdetail.points_per_game,
-                        playerdetail.selected_by_percent,
-                        playerdetail.special,
-                        playerdetail.squad_number,
-                        playerdetail.status,
-                        playerdetail.team,
-                        playerdetail.team_code,
-                        playerdetail.transfers_in,
-                        playerdetail.transfers_in_event,
-                        playerdetail.transfers_out,
-                        playerdetail.transfers_out_event,
-                        playerdetail.value_form,
-                        playerdetail.value_season,
-                        playerdetail.web_name,
-                        playerdetail.minutes,
-                        playerdetail.goals_scored,
-                        playerdetail.assists,
-                        playerdetail.clean_sheets,
-                        playerdetail.goals_conceded,
-                        playerdetail.own_goals,
-                        playerdetail.penalties_saved,
-                        playerdetail.penalties_missed,
-                        playerdetail.yellow_cards,
-                        playerdetail.red_cards,
-                        playerdetail.saves,
-                        playerdetail.bonus,
-                        playerdetail.bps,
-                        playerdetail.name,
-                        playerdetail.singular_name
-                      )
-                    }
-                  }
-                },
-                [
-                  _vm._v(
-                    _vm._s(playerdetail.first_name) +
-                      " " +
-                      _vm._s(playerdetail.second_name) +
-                      " "
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c("td", [
+      _c(
+        "table",
+        { staticClass: "table table-striped table-bordered table-hover" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.playerdetails, function(playerdetail) {
+              return _c("tr", [
                 _c(
-                  "button",
+                  "td",
                   {
-                    staticClass: "btn btn-info",
-                    staticStyle: { color: "white" },
-                    attrs: { type: "button" },
                     on: {
                       click: function($event) {
                         return _vm.showplayerdetails(
@@ -38469,14 +38261,162 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("Player Details")]
-                )
+                  [_vm._v(_vm._s(playerdetail.id))]
+                ),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  {
+                    on: {
+                      click: function($event) {
+                        return _vm.showplayerdetails(
+                          playerdetail.id,
+                          playerdetail.first_name,
+                          playerdetail.second_name,
+                          playerdetail.form,
+                          playerdetail.influence,
+                          playerdetail.creativity,
+                          playerdetail.threat,
+                          playerdetail.ict_index,
+                          playerdetail.total_points,
+                          playerdetail.chance_of_playing_next_round,
+                          playerdetail.chance_of_playing_this_round,
+                          playerdetail.code,
+                          playerdetail.cost_change_event,
+                          playerdetail.cost_change_event_fall,
+                          playerdetail.cost_change_start,
+                          playerdetail.cost_change_start_fall,
+                          playerdetail.dreamteam_count,
+                          playerdetail.element_type,
+                          playerdetail.ep_next,
+                          playerdetail.ep_this,
+                          playerdetail.event_points,
+                          playerdetail.in_dreamteam,
+                          playerdetail.news,
+                          playerdetail.news_added,
+                          playerdetail.now_cost,
+                          playerdetail.photo,
+                          playerdetail.points_per_game,
+                          playerdetail.selected_by_percent,
+                          playerdetail.special,
+                          playerdetail.squad_number,
+                          playerdetail.status,
+                          playerdetail.team,
+                          playerdetail.team_code,
+                          playerdetail.transfers_in,
+                          playerdetail.transfers_in_event,
+                          playerdetail.transfers_out,
+                          playerdetail.transfers_out_event,
+                          playerdetail.value_form,
+                          playerdetail.value_season,
+                          playerdetail.web_name,
+                          playerdetail.minutes,
+                          playerdetail.goals_scored,
+                          playerdetail.assists,
+                          playerdetail.clean_sheets,
+                          playerdetail.goals_conceded,
+                          playerdetail.own_goals,
+                          playerdetail.penalties_saved,
+                          playerdetail.penalties_missed,
+                          playerdetail.yellow_cards,
+                          playerdetail.red_cards,
+                          playerdetail.saves,
+                          playerdetail.bonus,
+                          playerdetail.bps,
+                          playerdetail.name,
+                          playerdetail.singular_name
+                        )
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      _vm._s(playerdetail.first_name) +
+                        " " +
+                        _vm._s(playerdetail.second_name) +
+                        " "
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("td", [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-info",
+                      staticStyle: { color: "white" },
+                      attrs: { type: "button" },
+                      on: {
+                        click: function($event) {
+                          return _vm.showplayerdetails(
+                            playerdetail.id,
+                            playerdetail.first_name,
+                            playerdetail.second_name,
+                            playerdetail.form,
+                            playerdetail.influence,
+                            playerdetail.creativity,
+                            playerdetail.threat,
+                            playerdetail.ict_index,
+                            playerdetail.total_points,
+                            playerdetail.chance_of_playing_next_round,
+                            playerdetail.chance_of_playing_this_round,
+                            playerdetail.code,
+                            playerdetail.cost_change_event,
+                            playerdetail.cost_change_event_fall,
+                            playerdetail.cost_change_start,
+                            playerdetail.cost_change_start_fall,
+                            playerdetail.dreamteam_count,
+                            playerdetail.element_type,
+                            playerdetail.ep_next,
+                            playerdetail.ep_this,
+                            playerdetail.event_points,
+                            playerdetail.in_dreamteam,
+                            playerdetail.news,
+                            playerdetail.news_added,
+                            playerdetail.now_cost,
+                            playerdetail.photo,
+                            playerdetail.points_per_game,
+                            playerdetail.selected_by_percent,
+                            playerdetail.special,
+                            playerdetail.squad_number,
+                            playerdetail.status,
+                            playerdetail.team,
+                            playerdetail.team_code,
+                            playerdetail.transfers_in,
+                            playerdetail.transfers_in_event,
+                            playerdetail.transfers_out,
+                            playerdetail.transfers_out_event,
+                            playerdetail.value_form,
+                            playerdetail.value_season,
+                            playerdetail.web_name,
+                            playerdetail.minutes,
+                            playerdetail.goals_scored,
+                            playerdetail.assists,
+                            playerdetail.clean_sheets,
+                            playerdetail.goals_conceded,
+                            playerdetail.own_goals,
+                            playerdetail.penalties_saved,
+                            playerdetail.penalties_missed,
+                            playerdetail.yellow_cards,
+                            playerdetail.red_cards,
+                            playerdetail.saves,
+                            playerdetail.bonus,
+                            playerdetail.bps,
+                            playerdetail.name,
+                            playerdetail.singular_name
+                          )
+                        }
+                      }
+                    },
+                    [_vm._v("Player Details")]
+                  )
+                ])
               ])
-            ])
-          }),
-          0
-        )
-      ]),
+            }),
+            0
+          )
+        ]
+      ),
       _vm._v(" "),
       _c(
         "div",
@@ -38500,485 +38440,471 @@ var render = function() {
                 _vm._v(" "),
                 _c("div", { staticClass: "modal-body" }, [
                   _c("div", { staticClass: "form-group" }, [
-                    _c("table", { staticClass: "table" }, [
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(2),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "id" } }, [
-                            _vm._v(_vm._s(this.e_id))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(3),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "name" } }, [
-                            _vm._v(
+                    _c("h1", [
+                      _c("strong", [
+                        _c("small", [
+                          _vm._v(
+                            _vm._s(this.e_id) +
+                              " - " +
                               _vm._s(this.e_firstname) +
-                                " " +
-                                _vm._s(this.e_lastname)
-                            )
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(4),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "name" } }, [
-                            _vm._v(_vm._s(this.e_form))
-                          ])
+                              " " +
+                              _vm._s(this.e_lastname)
+                          )
                         ])
-                      ]),
-                      _vm._v(" "),
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h4", [
+                      _c("strong", [_vm._v("Club:  " + _vm._s(this.e_name))])
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("table", { staticClass: "table table-borderless" }, [
                       _c("tr", [
                         _c("td", [
-                          _vm._m(5),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "total_points" } }, [
-                            _vm._v(_vm._s(this.e_total_points) + " pts")
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(6),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "influence" } }, [
-                            _vm._v(_vm._s(this.e_influence))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(7),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "creativity" } }, [
-                            _vm._v(_vm._s(this.e_creativity))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(8),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "threat" } }, [
-                            _vm._v(_vm._s(this.e_threat))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(9),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "ict_index" } }, [
-                            _vm._v(_vm._s(this.e_ict_index))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(10),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            {
-                              attrs: { for: "e_chance_of_playing_next_round" }
-                            },
-                            [
-                              _vm._v(
-                                _vm._s(this.e_chance_of_playing_next_round) +
-                                  "%"
+                          _c("ul", { staticClass: "list-group" }, [
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(3),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "name" } }, [
+                                _vm._v(_vm._s(this.e_form))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(4),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "goals_conceded" } },
+                                [_vm._v(_vm._s(this.e_goals_conceded))]
                               )
-                            ]
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(11),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "chance_of_playing_this_round" } },
-                            [
-                              _vm._v(
-                                _vm._s(this.e_chance_of_playing_this_round) +
-                                  "%"
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(5),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "own_goals" } }, [
+                                _vm._v(_vm._s(this.e_own_goals))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(6),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "creativity" } }, [
+                                _vm._v(_vm._s(this.e_creativity))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(7),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                {
+                                  attrs: {
+                                    for: "e_chance_of_playing_next_round"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    _vm._s(
+                                      this.e_chance_of_playing_next_round
+                                    ) + "%"
+                                  )
+                                ]
                               )
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(12),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "e_code" } }, [
-                            _vm._v(_vm._s(this.e_code))
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(8),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "cost_change_event" } },
+                                [_vm._v(_vm._s(this.e_cost_change_event))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(9),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "element_type" } }, [
+                                _vm._v(_vm._s(this.e_singular_name))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(10),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "ep_next" } }, [
+                                _vm._v(_vm._s(this.e_ep_next))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(11),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "special" } }, [
+                                _vm._v(_vm._s(this.e_special))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(12),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "status" } }, [
+                                _vm._v(_vm._s(this.e_status))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(13),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "team" } }, [
+                                _vm._v(_vm._s(this.e_team))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(14),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "transfers_in" } }, [
+                                _vm._v(_vm._s(this.e_transfers_in))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(15),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "transfers_out_event" } },
+                                [_vm._v(_vm._s(this.e_transfers_out_event))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(16),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "web_name" } }, [
+                                _vm._v(_vm._s(this.e_web_name))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(17),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "penalties_missed" } },
+                                [_vm._v(_vm._s(this.e_penalties_missed))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(18),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "saves" } }, [
+                                _vm._v(_vm._s(this.e_saves))
+                              ])
+                            ])
                           ])
                         ]),
                         _vm._v(" "),
                         _c("td", [
-                          _vm._m(13),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "cost_change_event" } }, [
-                            _vm._v(_vm._s(this.e_cost_change_event))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(14),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "cost_change_event_fall" } },
-                            [_vm._v(_vm._s(this.e_cost_change_event_fall))]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(15),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "cost_change_start" } }, [
-                            _vm._v(_vm._s(this.e_cost_change_start))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(16),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "cost_change_start_fall" } },
-                            [_vm._v(_vm._s(this.e_cost_change_start_fall))]
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(17),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "dreamteam_count" } }, [
-                            _vm._v(_vm._s(this.e_dreamteam_count))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(18),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "element_type" } }, [
-                            _vm._v(_vm._s(this.e_singular_name))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(19),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "ep_next" } }, [
-                            _vm._v(_vm._s(this.e_ep_next))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(20),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "ep_this" } }, [
-                            _vm._v(_vm._s(this.e_ep_this))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(21),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "event_points" } }, [
-                            _vm._v(_vm._s(this.e_event_points))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(22),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "in_dreamteam" } }, [
-                            _vm._v(_vm._s(this.e_in_dreamteam))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(23),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "news" } }, [
-                            _vm._v(_vm._s(this.e_news))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(24),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "news_added" } }, [
-                            _vm._v(_vm._s(this.e_news_added))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(25),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "now_cost" } }, [
-                            _vm._v(_vm._s(this.e_now_cost))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(26),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "photo" } }, [
-                            _vm._v(_vm._s(this.e_photo))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(27),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "points_per_game" } }, [
-                            _vm._v(_vm._s(this.e_points_per_game))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(28),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "selected_by_percent" } },
-                            [_vm._v(_vm._s(this.e_selected_by_percent))]
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(29),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "special" } }, [
-                            _vm._v(_vm._s(this.e_special))
+                          _c("ul", { staticClass: "list-group" }, [
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(19),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "total_points" } }, [
+                                _vm._v(_vm._s(this.e_total_points) + " pts")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(20),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "assists" } }, [
+                                _vm._v(_vm._s(this.e_assists))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(21),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "points_per_game" } },
+                                [_vm._v(_vm._s(this.e_points_per_game))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(22),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "threat" } }, [
+                                _vm._v(_vm._s(this.e_threat))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(23),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                {
+                                  attrs: { for: "chance_of_playing_this_round" }
+                                },
+                                [
+                                  _vm._v(
+                                    _vm._s(
+                                      this.e_chance_of_playing_this_round
+                                    ) + "%"
+                                  )
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(24),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "cost_change_event_fall" } },
+                                [_vm._v(_vm._s(this.e_cost_change_event_fall))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(25),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "dreamteam_count" } },
+                                [_vm._v(_vm._s(this.e_dreamteam_count))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(26),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "minutes" } }, [
+                                _vm._v(_vm._s(this.e_minutes) + " min")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(27),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "news" } }, [
+                                _vm._v(_vm._s(this.e_news))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(28),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "news_added" } }, [
+                                _vm._v(_vm._s(this.e_news_added))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(29),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "selected_by_percent" } },
+                                [_vm._v(_vm._s(this.e_selected_by_percent))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(30),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "transfers_in_event" } },
+                                [_vm._v(_vm._s(this.e_transfers_in_event))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(31),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "value_form" } }, [
+                                _vm._v(_vm._s(this.e_value_form))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(32),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "clean_sheets" } }, [
+                                _vm._v(_vm._s(this.e_clean_sheets))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(33),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "yellow_cards" } }, [
+                                _vm._v(_vm._s(this.e_yellow_cards))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(34),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "bonus" } }, [
+                                _vm._v(_vm._s(this.e_bonus))
+                              ])
+                            ])
                           ])
                         ]),
                         _vm._v(" "),
                         _c("td", [
-                          _vm._m(30),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "squad_number" } }, [
-                            _vm._v(_vm._s(this.e_squad_number))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(31),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "status" } }, [
-                            _vm._v(_vm._s(this.e_status))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(32),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "team" } }, [
-                            _vm._v(_vm._s(this.e_team))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(33),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "team_code" } }, [
-                            _vm._v(_vm._s(this.e_name))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(34),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "transfers_in" } }, [
-                            _vm._v(_vm._s(this.e_transfers_in))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(35),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "transfers_in_event" } },
-                            [_vm._v(_vm._s(this.e_transfers_in_event))]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(36),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "transfers_out" } }, [
-                            _vm._v(_vm._s(this.e_transfers_out))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(37),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            { attrs: { for: "transfers_out_event" } },
-                            [_vm._v(_vm._s(this.e_transfers_out_event))]
-                          )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(38),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "value_form" } }, [
-                            _vm._v(_vm._s(this.e_value_form))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(39),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "value_season" } }, [
-                            _vm._v(_vm._s(this.e_value_season))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(40),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "web_name" } }, [
-                            _vm._v(_vm._s(this.e_web_name))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(41),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "minutes" } }, [
-                            _vm._v(_vm._s(this.e_minutes))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(42),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "goals_scored" } }, [
-                            _vm._v(_vm._s(this.e_goals_scored))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(43),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "assists" } }, [
-                            _vm._v(_vm._s(this.e_assists))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(44),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "clean_sheets" } }, [
-                            _vm._v(_vm._s(this.e_clean_sheets))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(45),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "goals_conceded" } }, [
-                            _vm._v(_vm._s(this.e_goals_conceded))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(46),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "own_goals" } }, [
-                            _vm._v(_vm._s(this.e_own_goals))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(47),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "penalties_saved" } }, [
-                            _vm._v(_vm._s(this.e_penalties_saved))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(48),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "penalties_missed" } }, [
-                            _vm._v(_vm._s(this.e_penalties_missed))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(49),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "yellow_cards" } }, [
-                            _vm._v(_vm._s(this.e_yellow_cards))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(50),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "red_cards" } }, [
-                            _vm._v(_vm._s(this.e_red_cards))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(51),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "saves" } }, [
-                            _vm._v(_vm._s(this.e_saves))
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _c("td", [
-                          _vm._m(52),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "bonus" } }, [
-                            _vm._v(_vm._s(this.e_bonus))
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("tr", [
-                        _c("td", [
-                          _vm._m(53),
-                          _vm._v(" "),
-                          _c("label", { attrs: { for: "bps" } }, [
-                            _vm._v(_vm._s(this.e_bps))
+                          _c("ul", { staticClass: "list-group" }, [
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(35),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "squad_number" } }, [
+                                _vm._v(_vm._s(this.e_squad_number))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(36),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "influence" } }, [
+                                _vm._v(_vm._s(this.e_influence))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(37),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "ict_index" } }, [
+                                _vm._v(_vm._s(this.e_ict_index))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(38),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "e_code" } }, [
+                                _vm._v(_vm._s(this.e_code))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(39),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "cost_change_start" } },
+                                [_vm._v(_vm._s(this.e_cost_change_start))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(40),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "cost_change_start_fall" } },
+                                [_vm._v(_vm._s(this.e_cost_change_start_fall))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(41),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "ep_this" } }, [
+                                _vm._v(_vm._s(this.e_ep_this))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(42),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "event_points" } }, [
+                                _vm._v(_vm._s(this.e_event_points))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(43),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "in_dreamteam" } }, [
+                                _vm._v(_vm._s(this.e_in_dreamteam))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(44),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "now_cost" } }, [
+                                _vm._v(_vm._s(this.e_now_cost))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(45),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "photo" } }, [
+                                _vm._v(_vm._s(this.e_photo))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(46),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "transfers_out" } }, [
+                                _vm._v(_vm._s(this.e_transfers_out))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(47),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "value_season" } }, [
+                                _vm._v(_vm._s(this.e_value_season))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(48),
+                              _vm._v(" "),
+                              _c(
+                                "label",
+                                { attrs: { for: "penalties_saved" } },
+                                [_vm._v(_vm._s(this.e_penalties_saved))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(49),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "red_cards" } }, [
+                                _vm._v(_vm._s(this.e_red_cards))
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", { staticClass: "list-group-item" }, [
+                              _vm._m(50),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "bps" } }, [
+                                _vm._v(_vm._s(this.e_bps))
+                              ])
+                            ])
                           ])
                         ])
                       ])
@@ -39016,7 +38942,7 @@ var staticRenderFns = [
       _c(
         "h5",
         { staticClass: "modal-title", attrs: { id: "showModalLabel" } },
-        [_vm._v("Player Details")]
+        [_c("i", [_vm._v("Player Details")])]
       ),
       _vm._v(" "),
       _c(
@@ -39037,17 +38963,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "id" } }, [
-      _c("strong", [_vm._v("ID : ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "name" } }, [
-      _c("strong", [_vm._v("Full Name : ")])
-    ])
+    return _c("h5", [_c("strong", [_vm._v("Stats")])])
   },
   function() {
     var _vm = this
@@ -39061,16 +38977,16 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "total_points" } }, [
-      _c("strong", [_vm._v("Total Points: ")])
+    return _c("label", { attrs: { for: "goals_conceded" } }, [
+      _c("strong", [_vm._v("Goals Conceded: ")])
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "influence" } }, [
-      _c("strong", [_vm._v("Influence: ")])
+    return _c("label", { attrs: { for: "own_goals" } }, [
+      _c("strong", [_vm._v("Own Goals: ")])
     ])
   },
   function() {
@@ -39085,40 +39001,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "threat" } }, [
-      _c("strong", [_vm._v("Threat: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "ict_index" } }, [
-      _c("strong", [_vm._v("Ict Index: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "chance_of_playing_next_round" } }, [
       _c("strong", [_vm._v("Chance of playing next round: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "chance_of_playing_this_round" } }, [
-      _c("strong", [_vm._v("Chance of playing this round: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "code" } }, [
-      _c("strong", [_vm._v("Code: ")])
     ])
   },
   function() {
@@ -39133,8 +39017,240 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "element_type" } }, [
+      _c("strong", [_vm._v("Position: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "ep_next" } }, [
+      _c("strong", [_vm._v("Ep Next: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "special" } }, [
+      _c("strong", [_vm._v("Special: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "status" } }, [
+      _c("strong", [_vm._v("Status: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "team" } }, [
+      _c("strong", [_vm._v("Team: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "transfers_in" } }, [
+      _c("strong", [_vm._v("Transfers In: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "transfers_out_event" } }, [
+      _c("strong", [_vm._v("Transfers Out Event: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "web_name" } }, [
+      _c("strong", [_vm._v("Web Name: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "penalties_missed" } }, [
+      _c("strong", [_vm._v("Penalties Missed: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "saves" } }, [
+      _c("strong", [_vm._v("Saves: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "total_points" } }, [
+      _c("strong", [_vm._v("Total Points: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "assists" } }, [
+      _c("strong", [_vm._v("Assists: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "points_per_game" } }, [
+      _c("strong", [_vm._v("Points Per Game: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "threat" } }, [
+      _c("strong", [_vm._v("Threat: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "chance_of_playing_this_round" } }, [
+      _c("strong", [_vm._v("Chance of playing this round: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "cost_change_event_fall" } }, [
       _c("strong", [_vm._v("Cost Change Event Fall: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "dreamteam_count" } }, [
+      _c("strong", [_vm._v("Dreamteam Count: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "minutes" } }, [
+      _c("strong", [_vm._v("Minutes: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "news" } }, [
+      _c("strong", [_vm._v("News: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "news_added" } }, [
+      _c("strong", [_vm._v("News Added: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "selected_by_percent" } }, [
+      _c("strong", [_vm._v("Selected By Percent: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "transfers_in_event" } }, [
+      _c("strong", [_vm._v("Transfers In Event: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "value_form" } }, [
+      _c("strong", [_vm._v("Value Form: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "clean_sheets" } }, [
+      _c("strong", [_vm._v("Clean Sheets: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "yellow_cards" } }, [
+      _c("strong", [_vm._v("Yellow Cards: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "bonus" } }, [
+      _c("strong", [_vm._v("Bonus: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "squad_number" } }, [
+      _c("strong", [_vm._v("Squad Number: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "influence" } }, [
+      _c("strong", [_vm._v("Influence: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "ict_index" } }, [
+      _c("strong", [_vm._v("Ict Index: ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "code" } }, [
+      _c("strong", [_vm._v("Code: ")])
     ])
   },
   function() {
@@ -39151,30 +39267,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "cost_change_start_fall" } }, [
       _c("strong", [_vm._v("Cost Change Start Fall: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "dreamteam_count" } }, [
-      _c("strong", [_vm._v("Dreamteam Count: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "element_type" } }, [
-      _c("strong", [_vm._v("Element Type: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "ep_next" } }, [
-      _c("strong", [_vm._v("Ep Next: ")])
     ])
   },
   function() {
@@ -39205,22 +39297,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "news" } }, [
-      _c("strong", [_vm._v("News: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "news_added" } }, [
-      _c("strong", [_vm._v("News Added: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "now_cost" } }, [
       _c("strong", [_vm._v("Now Cost: ")])
     ])
@@ -39237,96 +39313,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "points_per_game" } }, [
-      _c("strong", [_vm._v("Points Per Game: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "selected_by_percent" } }, [
-      _c("strong", [_vm._v("Selected By Percent: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "special" } }, [
-      _c("strong", [_vm._v("Special: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "squad_number" } }, [
-      _c("strong", [_vm._v("Squad Number: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "status" } }, [
-      _c("strong", [_vm._v("Status: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "team" } }, [
-      _c("strong", [_vm._v("Team: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "team_code" } }, [
-      _c("strong", [_vm._v("Team Name: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "transfers_in" } }, [
-      _c("strong", [_vm._v("Transfers In: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "transfers_in_event" } }, [
-      _c("strong", [_vm._v("Transfers In Event: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "transfers_out" } }, [
       _c("strong", [_vm._v("Transfers In Out: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "transfers_out_event" } }, [
-      _c("strong", [_vm._v("Transfers Out Event: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "value_form" } }, [
-      _c("strong", [_vm._v("Value Form: ")])
     ])
   },
   function() {
@@ -39341,62 +39329,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "web_name" } }, [
-      _c("strong", [_vm._v("Web Name: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "minutes" } }, [
-      _c("strong", [_vm._v("Minutes: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "goals_scored" } }, [
-      _c("strong", [_vm._v("Goals Scored: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "assists" } }, [
-      _c("strong", [_vm._v("Assists: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "clean_sheets" } }, [
-      _c("strong", [_vm._v("Clean Sheets: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "goals_conceded" } }, [
-      _c("strong", [_vm._v("Goals Conceded: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "own_goals" } }, [
-      _c("strong", [_vm._v("Own Goals: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "penalties_saved" } }, [
       _c("strong", [_vm._v("Penalties Saved: ")])
     ])
@@ -39405,40 +39337,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "penalties_missed" } }, [
-      _c("strong", [_vm._v("Penalties Missed: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "yellow_cards" } }, [
-      _c("strong", [_vm._v("Yellow Cards: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "red_cards" } }, [
       _c("strong", [_vm._v("Red Cards: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "saves" } }, [
-      _c("strong", [_vm._v("Saves: ")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "bonus" } }, [
-      _c("strong", [_vm._v("Bonus: ")])
     ])
   },
   function() {
